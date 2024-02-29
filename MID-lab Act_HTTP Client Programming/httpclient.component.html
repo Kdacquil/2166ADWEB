@@ -1,0 +1,20 @@
+<h2>HTTP Client Listing</h2>
+<table>
+    <thead>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Username</th>
+        <th>Email</th>
+        <th>Website</th>
+    </thead>
+
+<tbody>
+    <tr *ngFor="let user of httpusers">
+    <td>{{ user.id }}</td>
+    <td>{{ user.name }}</td>
+    <td>{{ user.username }}</td>
+    <td>{{ user.website }}</td>
+    <td>{{ user.website }}</td>
+    </tr>
+</tbody>
+</table>
