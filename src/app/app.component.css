@@ -1,0 +1,57 @@
+
+p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: cadetblue;
+  }
+
+  .container {
+    max-width: 600px; 
+    margin: 0 auto; 
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-style: dashed;
+
+  }
+  
+  input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2c92fe;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .book-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    margin: 0; 
+  }
+  
+  h3 b {
+    font-weight: normal; 
+    margin-right: 5px; 
+  }
+  
